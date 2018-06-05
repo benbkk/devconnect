@@ -32,7 +32,7 @@ router.post('/register', (req, res) => {
                 const newUser = new User({
                     name: req.body.name,
                     email: req.body.email,
-                    avatar: avatar,
+                    avatar,
                     password: req.body.password
                 });
 
