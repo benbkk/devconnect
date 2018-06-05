@@ -1,3 +1,3 @@
 module.exports = {
-    mongoURI: "mongodb://benbkk:benbkk@ds141870.mlab.com:41870/devconnect"
+    mongoURI: 'mongodb://benbkk:b3nbkk@ds141870.mlab.com:41870/devconnect?authSource=devconnect&w=1'
 }
